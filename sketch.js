@@ -96,7 +96,7 @@ function draw() {
     score = score + Math.round(getFrameRate()/60);
     
     if(score>0 && score%100 === 0){
-       checkPointSound.play() 
+      // checkPointSound.play() 
     }
     
     if (ground.x < 0){
